@@ -1,7 +1,7 @@
 {% extends "../base.html" %}
 {% load static %}
 {% block title %}
-    Tittle
+    Fizika Land
 {% endblock %}
 
 {% block custom_css %}
@@ -11,6 +11,266 @@
 
 {% block content %}
 
+      <!-- ***** Main Banner Area Start ***** -->
+  <section class="section main-banner" id="top" data-section="section1">
+      <video autoplay muted loop id="bg-video">
+          <source src="{% static 'assets/images/course-video.mp4' %}" type="video/mp4" />
+      </video>
+
+      <div class="video-overlay header-text">
+          <div class="caption">
+              <h6>Har xil turdagi laboratoriya mashg'ulotlarini virtual</h6>
+              <h2><em>Fizika</em> Land</h2>
+              <div class="main-button">
+                  <div class="scroll-to-section"><a href="#section4">bilan o'rganing</a></div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- ***** Main Banner Area End ***** -->
+
+
+  <section class="features">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-12">
+          <div class="features-post">
+            <div class="features-content">
+              <div class="content-show">
+                <h4><i class="fa fa-pencil"></i>Laboratoriya ishlari</h4>
+              </div>
+              <div class="content-hide">
+                <p>Fizika sohasidagi virtual laboratoriya mashg'ulotlarini biz bilan birga FIZIKA LAND online platformasida o'rganing</p>
+                <p class="hidden-sm">Fizika sohasidagi virtual laboratoriya mashg'ulotlarini biz bilan birga FIZIKA LAND online platformasida o'rganing</p>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12">
+          <div class="features-post second-features">
+            <div class="features-content">
+              <div class="content-show">
+                <h4><i class="fa fa-graduation-cap"></i>Virtual Fizika</h4>
+              </div>
+              <div class="content-hide">
+                <p>Endi zamonaviy davr talabi sifatida fizika fanidan bilimlaringizni avtomatlashgan online tizimida uydan chiqmagan holda o'z bilimlaringizni oshiring</p>
+                <p class="hidden-sm">Endi zamonaviy davr talabi sifatida fizika fanidan bilimlaringizni avtomatlashgan online tizimida uydan chiqmagan holda o'z bilimlaringizni oshiring</p>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12">
+          <div class="features-post third-features">
+            <div class="features-content">
+              <div class="content-show">
+                <h4><i class="fa fa-book"></i>Yangilanishlar</h4>
+              </div>
+              <div class="content-hide">
+                <p>Bu platforma tez-tez yangilanishlar olib boriladigan platforma hisoblanadi. Har kuni yangi laboratoriya va qiziqarli o'yin va mashg'ulotlar yuklab boriladi</p>
+                <p class="hidden-sm">Bu platforma tez-tez yangilanishlar olib boriladigan platforma hisoblanadi. Har kuni yangi laboratoriya va qiziqarli o'yin va mashg'ulotlar yuklab boriladi</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section why-us" data-section="section2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Nimaga aynan FIZIKA LAND?</h2>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div id="tabs">
+            <ul>
+              <li><a href="#tabs-1">Eng yaxshi ta'lim</a></li>
+              <li><a href="#tabs-2">Zamonaviy ta'lim</a></li>
+              <li><a href="#tabs-3">Davr talabi</a></li>
+            </ul>
+            <section class="tabs-content">
+              <article id="tabs-1">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="{% static 'assets/images/choose-us-image-01.png' %}" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <h4>Eng yaxshi ta'lim</h4>
+                    <p>Fizika Land platformasi bepul bo'lgan online platforma. Shunga qaramasdan ushbu saytga tashrif buyuruvchilarga har qanday qulayliklar yaratib berilgan!</p>
+                  </div>
+                </div>
+              </article>
+              <article id="tabs-2">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="{% static 'assets/images/choose-us-image-02.png' %}" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <h4>Zamonaviy ta'lim</h4>
+                    <p>Endi uydan chiqmagan holda online tarzda siz fizika fanidan o'z bilimlaringizni oshirishingiz mumkin. Buning uchun faqatgina Fizika Land online platformasiga tashrif buyuring!</p>
+                  </div>
+                </div>
+              </article>
+              <article id="tabs-3">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="{% static 'assets/images/choose-us-image-03.png' %}" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <h4>Davr talabi</h4>
+                    <p>Hozirgi kunda online ta'lim jadallik bilan avj olayotgan bir paytda siz fizika laboratoriyalarini amalga oshirish uchun mahsus xonalarni qidirishingiz shart emas. Bizning platformaga tashrif buyuring va kerakli bilimlaringiz oshiring!</p>
+                  </div>
+                </div>
+              </article>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section courses" data-section="section4">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Laboratoriya mashg'ulotini tanlang</h2>
+          </div>
+        </div>
+        <div class="owl-carousel owl-theme">
+
+          <div class="item">
+            <img src="{% static 'assets/images/nU7XnMiXzwKONZjU0smfJ6EEaKsYpx2nqJQ7WRnR.png' %}" alt="Course #1">
+            <div class="down-content">
+              <h4>Yorug'likning sinishi</h4>
+              <div class="text-button-pay" style="display: flex; justify-content: flex-end; margin-top: 30px; float: none;">
+                <a href="{% url 'first' %}">Boshlash <i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="{% static 'assets/images/MJLoVazor76GbsKo97Mncb7PuRi8XGLwLWyuJ5Pk.png' %}" alt="Course #1">
+            <div class="down-content">
+              <h4>To'lqin interferensiyasi</h4>
+              <div class="text-button-pay" style="display: flex; justify-content: flex-end; margin-top: 30px; float: none;">
+                <a href="{% url 'second' %}">Boshlash <i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="{% static 'assets/images/Attbo9o4sf9moUAUf5MTMPan9LYmEUaLwwElF9QQ.png' %}" alt="Course #1">
+            <div class="down-content">
+              <h4>Kuchlar va harakat</h4>
+              <div class="text-button-pay" style="display: flex; justify-content: flex-end; margin-top: 30px; float: none;">
+                <a href="{% url 'third' %}">Boshlash <i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="{% static 'assets/images/V9YUWuPYYv5IhudHYS65cETtb01VItxYlc0cPtyn.png' %}" alt="Course #1">
+            <div class="down-content">
+              <h4>Rezerford sochilishi</h4>
+              <div class="text-button-pay" style="display: flex; justify-content: flex-end; margin-top: 30px; float: none;">
+                <a href="{% url 'fourth' %}">Boshlash <i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="{% static 'assets/images/JjKLb05SkydQfrSuEKXaqvbfHHmPcAft80Zq9KWz.png' %}" alt="Course #1">
+            <div class="down-content">
+              <h4>Zaryadlar va Мaydonlar</h4>
+              <div class="text-button-pay" style="display: flex; justify-content: flex-end; margin-top: 30px; float: none;">
+                <a href="{% url 'fifth' %}">Boshlash <i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section video" data-section="section5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <div class="left-content">
+            <span>Ushbu video siz uchun</span>
+            <h4>Quyidagi <em>Fizika Land</em> tomonidan ishlab chiqilgan videoni ko'rishni tavsiya etamiz</h4>
+            <p>Bu videoda fizika bilan hayot qanday bog'liqliligini ko'rsatadi. Fizika bizning hayotimizda juda katta rol o'ynaydi. Har bir narsa hozirgi zamonda fizikasiz tasavvur qilish qiyin. Nafaqat hozir fizika o'tgan zamonlarda texnika hali rivojlanmagana paytda ham shunday rol o'ynagan.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <article class="video-item">
+            <div class="video-caption">
+              <h4>Fizika bu hayot</h4>
+            </div>
+            <figure>
+              <a href="{% static 'assets/video/physicsislife.mp4' %}" class="play"><img src="{% static 'assets/images/channels4_profile.jpg' %}"></a>
+            </figure>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact" data-section="section6">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Biz bilan aloqa</h2>
+          </div>
+        </div>
+        <div class="col-md-6">
+
+          <form id="contact" action="" method="post" class="h-100">
+            <div class="row">
+              <div class="col-md-6">
+                  <fieldset>
+                    <input name="name" type="text" class="form-control" id="name" placeholder="Sizning ismingiz" required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-6">
+                  <fieldset>
+                    <input name="email" type="text" class="form-control" id="email" placeholder="Sizning telefon raqamingiz" required="">
+                  </fieldset>
+                </div>
+              <div class="col-md-12">
+                <fieldset>
+                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Sizning habar..." required=""></textarea>
+                </fieldset>
+              </div>
+              <div class="col-md-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="button">Yuborish</button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.5255011926934!2d69.28454511571213!3d41.34093030683619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b534175ed31%3A0x52a8f9d9414a2ad8!2z0KLQsNGI0LrQtdC90YLRgdC60LjQuSDQo9C90LjQstC10YDRgdC40YLQtdGCINCY0L3RhNC-0YDQvNCw0YbQuNC-0L3QvdGL0YUg0KLQtdGF0L3QvtC70L7Qs9C40Lk!5e0!3m2!1sru!2s!4v1655700023501!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p><i class="fa fa-copyright"></i> Copyright 2022 by Nigora. <a href="https://t.me/Magistr0922" rel="sponsored" target="_parent">TUIT</a> bitiruv malakaviy ishi uchun tayyorlandi!</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 {% endblock %}
 
